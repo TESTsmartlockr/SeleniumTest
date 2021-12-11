@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Max.Tests
+build_property.ProjectDir = /Users/yurychislov/Downloads/selenium-dotnet-core-master/Max.Tests/

@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yurychislov/Downloads/selenium-dotnet-core-master/Max.Tests/Max.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/yurychislov/Downloads/selenium-dotnet-core-master/Max.Tests/Max.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yurychislov/Downloads/selenium-dotnet-core-master/Max.Tests/Max.Tests.csproj",
+        "projectName": "Max.Tests",
+        "projectPath": "/Users/yurychislov/Downloads/selenium-dotnet-core-master/Max.Tests/Max.Tests.csproj",
+        "packagesPath": "/Users/yurychislov/.nuget/packages/",
+        "outputPath": "/Users/yurychislov/Downloads/selenium-dotnet-core-master/Max.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yurychislov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "DotNetSeleniumExtras.PageObjects": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Selenium.Chrome.WebDriver": {
+              "target": "Package",
+              "version": "[2.40.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
