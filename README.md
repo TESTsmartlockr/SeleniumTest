@@ -1,7 +1,7 @@
 # selenium-dotnet-core
 A test automation project built on xunit framework using .NET Core and C#.
 
-## Zola Sample Test
+## Sample Test
 This repository contains a sample test automation project built on xunit framework using .NET Core and C#.
 The test is supposed to:
 - Navigate to Smartlockr website
